@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moon Garden — Spot the Difference</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: #0b0e1c;
+    color: #eef2ff;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 10px 10px;
+  }
+  header {
+    width: 968px;
+    max-width: 100%;
+    display: flex;
+    align-items: baseline;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 24px;
+    margin: 0;
+    color: #ffd94d;
+    letter-spacing: 0.04em;
+  }
+  .tag { color: #9fb0d8; font-size: 14px; }
+  .stats {
+    margin-left: auto;
+    display: flex;
+    gap: 16px;
+    align-items: baseline;
+    font-size: 15px;
+  }
+  .stats b { color: #ffd94d; font-size: 19px; }
+  #restart {
+    background: #ffd94d;
+    color: #191408;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 14px;
+    font: 600 14px system-ui, sans-serif;
+    cursor: pointer;
+  }
+  #restart:hover { background: #ffe27a; }
+  canvas {
+    margin-top: 10px;
+    width: 968px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 12px 44px rgba(0,0,0,0.55);
+    touch-action: manipulation;
+    cursor: crosshair;
+    background: #0b0e1c;
+  }
+  #message {
+    width: 968px;
+    max-width: 100%;
+    margin-top: 9px;
+    font-size: 15.5px;
+    color: #dbe4ff;
+    min-height: 22px;
+  }
+  .hint { color: #8494bb; font-size: 13px; margin-top: 2px; width: 968px; max-width: 100%; }
+  kbd {
+    background: #1c2338;
+    border: 1px solid #39466b;
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    padding: 0 5px;
+    font: 12px ui-monospace, monospace;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Moon Garden</h1>
+    <span class="tag">Spot the Difference</span>
+    <div class="stats">
+      <span>Found <b id="found">0</b>/8</span>
+      <span><b id="left">8</b> to go</span>
+      <span>Time <b id="time">0:00</b></span>
+      <span>Misses <b id="misses">0</b></span>
+      <button id="restart" type="button">New round</button>
+    </div>
+  </header>
+  <canvas id="game" width="968" height="400"></canvas>
+  <div id="message">Find the 8 differences between the two gardens.</div>
+  <div class="hint">Mouse: click a difference in either picture. Keyboard: <kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd> or <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> move the ring, <kbd>Tab</kbd> switches picture, <kbd>Enter</kbd> checks, <kbd>R</kbd> restarts.</div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
