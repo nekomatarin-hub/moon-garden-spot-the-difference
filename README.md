@@ -1,8 +1,8 @@
 # Moon Garden — Spot the Difference
 
-[![Play on make.fun](https://make.fun/api/competitions/best-spot-the-difference-game-20261121-0451/badge.svg)](https://make.fun/c/best-spot-the-difference-game-20261121-0451?ref=fs66msvv)
-[![make.fun competition](https://make.fun/api/badges/competition.svg)](https://make.fun/c/best-spot-the-difference-game-20261121-0451?ref=fs66msvv)
-[![Built for make.fun](https://make.fun/api/badges/built-for.svg)](https://make.fun?ref=fs66msvv)
+[![make.fun · best-spot-the-difference-game-20261121-0451](https://make.fun/badge/best-spot-the-difference-game-20261121-0451.svg)](https://make.fun/bounty/best-spot-the-difference-game-20261121-0451?utm_source=github&utm_medium=readme&utm_campaign=best-spot-the-difference-game-20261121-0451)
+[![rank](https://make.fun/badge/best-spot-the-difference-game-20261121-0451/nekomatarin-hub/moon-garden-spot-the-difference/rank.svg)](https://make.fun/bounty/best-spot-the-difference-game-20261121-0451/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-spot-the-difference-game-20261121-0451)
+[![reward](https://make.fun/badge/best-spot-the-difference-game-20261121-0451/nekomatarin-hub/moon-garden-spot-the-difference/reward.svg)](https://make.fun/bounty/best-spot-the-difference-game-20261121-0451?utm_source=github&utm_medium=readme&utm_campaign=best-spot-the-difference-game-20261121-0451)
 
 One moonlit garden, drawn twice — and the right-hand copy hides **8 quiet
 changes**: the moon slips from full to crescent, a bright star goes out,
